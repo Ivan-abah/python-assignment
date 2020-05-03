@@ -1,0 +1,78 @@
+def AreaOfASquare():
+	a=int(input("lenght:"))
+	A=a*a
+	print("area of a square:",A)
+
+def AreaOfARectangle():
+	l=int(input("lenght:"))
+	b=int(input("breath:"))
+	A=l*b
+	print("area of a rectangle:",A)
+
+def AreaOfATriangle():
+	b=int(input("base:"))
+	h=int(input("height:"))
+	A=1/2*b*h
+	print("area of a triangle:",A)
+
+def AreaOfATrapezoid():
+	b1=int(input("base 1:"))
+	b2=int(input("base 2:"))
+	h=int(input("height:"))
+	A=1/2*h*b1+b2
+	print("area of a trapezoid:",A)
+
+def AreaOfACircle():
+	r=int(input("radius:"))
+	A=22/7*r*r
+	print("area of a circle:",A)
+
+def CircumferenceOfACircle():
+	r=int(input("radius:"))
+	A=22/7*2*r
+	print("circumference of a circle:",A)
+
+def SurfaceAreaOfACube():
+	a=int(input("side:"))
+	S=6*a*a
+	print("surface area of a cube:",S)
+
+def CurvedSurfaceAreaOfCylinder():
+	r=int(input("radius:"))
+	h=int(input("height:"))
+	S=22/7*2*r*h
+	print("surface area of cylinder:",S)
+
+def TotalSurfaceAreaOfCylinder():
+	r=int(input("radius:"))
+	h=int(input("height:"))
+	b=h+r
+	S=22/7*2*r*b
+	print(" total surface area of cylinder:",S)
+
+def VolumeOfCylinder():
+	r=int(input("radius:"))
+	h=int(input("height:"))
+	b=r+h
+	V=22/7*r*r*b
+	print("volume of cylinder:",V)
+
+def Acceleration():
+	v=int(input("final velocity:"))
+	u=int(input("initial velocity:"))
+	t=int(input("time:"))
+	b=v-u
+	a=b/t
+	print("acceleration:",a)
+
+def Density():
+	m=int(input("mass:"))
+	v=int(input("v:"))
+	p=m/v
+	print("Density:"p)
+	
+def Pressure():
+	f=int(input("applied force:"))
+	a=int(input("area of object:"))
+	p=f/a
+	print(" pressure:",p)
